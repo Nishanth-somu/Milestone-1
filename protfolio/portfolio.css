@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+     background-color:darkslategray; 
+    
+  }
+  /* nav element */
+  nav{
+    background-color: aqua;
+  }
+  /* Head Section Styles */
+  .head-section {
+    background-color:darkslategray;
+    color: white;
+    padding: 100px ;
+  }
+  
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section Styles */
+  #about {
+    padding: 10px ;
+    background-image: linear-gradient(aqua,pink,black);
+    
+  }
+  
+  /* Projects Section Styles */
+  #projects .card {
+    margin-bottom: 30px;
+    border: none;
+    transition: transform 0.3s;
+  }
+  
+  #projects .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    padding: 100px ;
+  }
+  #contact
+  {
+    background-color:darkslategray;
+    background-image: linear-gradient(orange,pink,blue);
+  }
+  /* font awasome */
+  i
+  {
+     font-size: 70px;
+  }
+  /* anchor tag */
+  a
+  {
+    text-decoration: none;
+    color: black;
+  }
+
+  #skills
+  {
+    background-color:aqua;
+  }
+  .certificate_Color
+  {
+    background-image: linear-gradient(aqua,pink,black);
+  }
+  /* Footer Styles */
+  footer {
+    margin-top: 50px;
+    padding: 20px ;
+  }
+  
+  @media (max-width: 767px) {
+    .hero-section h1 {
+      font-size: 2.5em;
+    }
+  }
+  
